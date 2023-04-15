@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+{% extends 'base.html' %}
+
+{% block titulo %}
     <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
-    <h1>Esta é a minha Homepage</h1>
-</body>
-</html>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    Teste 123
+{% endblock %}
+
+{% block content %}
+    <h1>Sua localização é:</h1>
+    <h2></h2>
+    <script src="./script.js"></script>
+{% endblock %}
